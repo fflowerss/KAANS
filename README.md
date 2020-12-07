@@ -1,6 +1,7 @@
 ## INSTRUCCIONES DE CARGA DE ARCHIVOS
 ```
 git status
+git add .
 git commit -m "mensaje"
 git push origin
 Usuario: -----
