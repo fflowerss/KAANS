@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-conaliteg": {
+      "hosting": {
+        "login": [
+          "login-conaliteg"
+        ]
+      }
+    }
+  }
+}
