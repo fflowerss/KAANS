@@ -20,6 +20,11 @@ body {
     width: 75%;
     margin: 0px auto;
 }
+.center-cuestionario{
+    width: 75%;
+    margin: 0px auto;
+    padding: 60px 0px 60px 0px;
+}
 
 .clearfix{
     clear: both;
@@ -118,12 +123,28 @@ body {
     line-height: 46px;
     border: none;
     transition: 300ms all;
-
+}
+.btn-cues{
+    text-align: center;
+    background: #5CE1E6;
+    color: white;
+    width: 70%;
+    height: 46px;
+    font-size: 18px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    text-decoration: none;
+    line-height: 46px;
+    border: none;
+    transition: 300ms all;
 }
 .btn-secion:hover{
     background: #444;
 }
 .btn-reg:hover{
+    background: #444;
+}
+.btn-cues:hover{
     background: #444;
 }
 .mid-form{
@@ -193,6 +214,15 @@ input::placeholder{
     box-shadow: 0px 0px 5px #444;
     padding-top: 60px;
 }
+#content-center{
+    width: 60%;
+    min-height: 450px;
+    margin: 0px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #444;
+    padding-top: 60px;
+}
 
 #footer{
     background:  #696969;
@@ -211,6 +241,17 @@ input::placeholder{
     float: right;
     margin-top: 140px;
     font-size: 40px;
+}
+
+.content-respuestas{
+    width: 35%;
+    text-align: left;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-respuestas input{
+    margin-bottom: 5px;
 }
 
 @media(max-width: 1488px){
