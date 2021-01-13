@@ -11,7 +11,7 @@ body {
 }
 
 #header {
-    height: 70px;
+    height: 100px;
     width: 100%;
     background: #696969;
     border-bottom: 1px solid #ccc;
@@ -41,8 +41,8 @@ body {
 #logo img{
     display: block;
     float: left;
-    height: 61px;
-    margin-top: -25px;
+    height: 74px;
+    margin-top: -17px;
     animation: latir infinite 5s linear;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 #menu ul{
-    line-height: 38px;
+    line-height: 70px;
     width: 30%;
     float: left;
 }
@@ -101,9 +101,11 @@ body {
     color: white;
     width: 250px;
     height: 70px;
-    text-decoration: none;
-    line-height: 73px;
+    line-height: 108px;
     font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: color 300ms all;
 
 }
 .btn-reg{
@@ -132,6 +134,10 @@ body {
     line-height: 46px;
     border: none;
     transition: 300ms all;
+}
+
+.btn-secion:hover{
+    color: #5CE1E6;
 }
 
 .btn-reg:hover{
