@@ -65,3 +65,25 @@ function asignarEstiloAprendizaje(){
     }
     alert("Felicidades el stilo de aprendizaje resultantes es "  +tipoAprendizaje);
 }
+function calificarActividad(){
+    var suma = 0;
+    
+    for (let index = 1; index <= 10; index++) {
+        var tipo = 'pregunta'+index.toString();
+        var radiovalue= document.getElementsByName(tipo);
+        //alert("Valor seleccionado: " + radiovalue);   
+        for (var i = 0, length = radiovalue.length; i < length; i++)
+        {
+            if (radiovalue[i].checked)
+            {
+            // do whatever you want with the checked radio
+                suma += parseInt(radiovalue[i].value);
+
+            // only one radio can be logically checked, don't check the rest
+            break;
+            }
+        }
+    }
+    alert("Tu calificacion es "  +suma);
+
+}

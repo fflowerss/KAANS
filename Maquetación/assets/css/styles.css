@@ -25,6 +25,15 @@ body {
     margin: 0px auto;
     padding: 60px 0px 60px 0px;
 }
+.center-actividad{
+    width: 75%;
+    margin: 0px auto;
+    padding: 60px 0px 60px 0px;
+}
+#slider-comun h1{
+    margin-top: 0px;
+    padding-top: 20px;
+}
 
 .clearfix{
     clear: both;
@@ -63,7 +72,7 @@ body {
     }
 
 }
-
+/*menu numero 1*/
 #menu{
     width: 60%;
     float: left;
@@ -94,6 +103,36 @@ body {
     color: #5CE1E6;
 }
 
+/*menu numero 2*/
+#menu2{
+    width: 60%;
+    float: left;
+    font-size: 18px;
+}
+
+#menu2 ul{
+    line-height: 70px;
+    width: 60%;
+    float: left;
+}
+
+#menu2 ul li{
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#menu2 a{
+    text-decoration: none;
+    color: white;
+    transition: color 300ms all;
+}
+
+#menu2 a:hover{
+    color: #5CE1E6;
+}
 
 .btn-secion{
     display: block;
@@ -150,7 +189,6 @@ body {
     width: 70%;
     margin: 0px auto;
 }
-
 
 input[type = "text"]{
     width: 100%;
@@ -221,6 +259,16 @@ input::placeholder{
     border-radius: 10px;
     box-shadow: 0px 0px 5px #444;
     padding-top: 60px;
+}
+#content-center-actividad{
+    width: 75%;
+    min-height: 450px;
+    margin: 0px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #444;
+    padding-top: 60px;
+
 }
 
 #footer{
