@@ -65,6 +65,7 @@ function asignarEstiloAprendizaje(){
     }
     alert("Felicidades el stilo de aprendizaje resultantes es "  +tipoAprendizaje);
 }
+
 function calificarActividad(){
     var suma = 0;
     
