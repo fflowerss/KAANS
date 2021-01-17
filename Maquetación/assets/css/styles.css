@@ -14,7 +14,6 @@ body {
     height: 100px;
     width: 100%;
     background: #696969;
-    border-bottom: 1px solid #ccc;
 }
 .center{
     width: 75%;
@@ -134,6 +133,7 @@ body {
     color: #5CE1E6;
 }
 
+
 .btn-secion{
     display: block;
     float: right;
@@ -174,7 +174,21 @@ body {
     border: none;
     transition: 300ms all;
 }
+.btn-login{
+    text-align: center;
+    background: #5CE1E6;
+    color: white;
+    width: 240px;
+    height: 46px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 35px;
+    text-decoration: none;
+    line-height: 46px;
+    border: none;
+    transition: 300ms all;
 
+}
 .btn-secion:hover{
     color: #5CE1E6;
 }
@@ -183,6 +197,9 @@ body {
     background: #444;
 }
 .btn-cues:hover{
+    background: #444;
+}
+.btn-login:hover{
     background: #444;
 }
 .mid-form{
@@ -203,10 +220,16 @@ input[type = "text"]{
 input[type = "text"]{
     box-shadow: 0px 0px 5px #ccc inset;
 }
+input[type = "text"].secion-alinear{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
 input::placeholder{
     color: #CFD7DB;
 }
-
 #slider{
     width: 100%;
     height: 200px;
@@ -224,17 +247,30 @@ input::placeholder{
     background: linear-gradient(0deg, rgba(251,251,251,1) 45%, rgba(92,225,230,1) 91%);
 }
 
+#slider-login{
+    width: 100%;
+    height: 150px;
+    text-shadow: 0px 0px 5px #444;
+    background: #CFD7DB;
+}
+
 #slider h1{
     margin: 0px 0px 0px 40px;
     padding-top: 45px;
     text-align: left;
     font-size: 450%;
 }
-
+#slider-login p{
+    margin: 0px 0px 0px 40px;
+    text-align: center;
+    padding-top: 110px;
+    font-size: 300%;
+}
 #cont-inicio{
     margin-bottom: -4px;
     padding: 0px;
 }
+
 
 #cont-inicio .app-inicio{
     width: 100%;
@@ -289,6 +325,37 @@ input::placeholder{
     margin-top: 140px;
     font-size: 40px;
 }
+.imagen-fondo{
+    margin: 0;
+    background-image: url("../imagenes/img-login.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.content-login{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.imagen-fondo p{
+    margin: 0px;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 600;
+    color: white;
+}
 
 .content-respuestas{
     width: 35%;
@@ -300,6 +367,7 @@ input::placeholder{
 .content-respuestas input{
     margin-bottom: 5px;
 }
+
 
 @media(max-width: 1488px){
     .center{
