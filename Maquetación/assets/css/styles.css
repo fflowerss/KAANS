@@ -431,6 +431,7 @@ input::placeholder{
     margin: 0px;
     padding-top: 30px;
     font-size: 30px;
+    margin-right: -110px;
 }
 .grid{
     display: grid;
